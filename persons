@@ -1,0 +1,11 @@
+let persons = [
+  { id: 1, name: "Theo" },
+  { id: 2, name: "Leo" },
+  { id: 3, name: "Tom" }
+];
+
+print(persons);
+
+let personIds = persons.map(person => person.id);
+
+print(personIds);
