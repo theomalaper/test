@@ -6,6 +6,6 @@ let persons = [
 
 print(persons);
 
-let personIds = persons.map(person => person.id);
+let personName = persons.map(person => person.name);
 
-print(personIds);
+print(personName);
